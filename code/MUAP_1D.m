@@ -1,12 +1,13 @@
 clear all
-%% Extracellular Field
+%% 1D MUAP
+% Based on citestartFarina2001aciteend
 
 % muscle fibre properties
 offset = 0;
 fLen = offset+60; % total fibre length (mm)
 zi = offset+35; % location of NMJ (mm)
-A =96; % from Farina, D. (2001)
-B =-90; % from Farina, D. (2001)
+A =96; 
+B =-90; 
 lambda=1; % to match implementation in Farina, D. (2001)
 v = 30; % MFCV (mm/s)
 L1 = 35;
